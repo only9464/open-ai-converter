@@ -4,9 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: Image version tag to publish (for example: v1.1.0)
         required: true
-        type: string
 
 permissions:
   contents: read
